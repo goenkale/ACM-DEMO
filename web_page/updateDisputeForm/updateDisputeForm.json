@@ -3,7 +3,7 @@
   "previousArtifactVersion" : "2.0",
   "id" : "updateDisputeForm",
   "name" : "updateDisputeForm",
-  "lastUpdate" : 1660722024099,
+  "lastUpdate" : 1666864245734,
   "rows" : [
     [
       {
@@ -576,7 +576,7 @@
                         },
                         "type" : {
                           "type" : "constant",
-                          "value" : "number"
+                          "value" : "text"
                         },
                         "required" : {
                           "type" : "constant",
