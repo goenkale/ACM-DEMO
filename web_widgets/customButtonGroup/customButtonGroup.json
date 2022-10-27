@@ -1,0 +1,37 @@
+{
+  "modelVersion" : "2.2",
+  "previousArtifactVersion" : "2.0",
+  "properties" : [
+    {
+      "label" : "Button list",
+      "name" : "buttons",
+      "caption" : "",
+      "help" : "Expected JSON format for a button:\n{ \n    \"label\" : \"ButtonLabel\" ,\n    \"style\" : \"primary\",\n    \"action\" : \"POST\",\n    \"url\" : \"../API/..\",\n    \"dataToSend\" : {..},\n    \"targetUrlOnSuccess\" : \"../home\",\n    ... all standard button properties \n}",
+      "type" : "collection",
+      "defaultValue" : [ ],
+      "bond" : "expression"
+    },
+    {
+      "label" : "Alignment",
+      "name" : "alignment",
+      "type" : "choice",
+      "defaultValue" : "left",
+      "choiceValues" : [
+        "left",
+        "center",
+        "right"
+      ],
+      "bond" : "constant"
+    }
+  ],
+  "id" : "customButtonGroup",
+  "name" : "ButtonGroup",
+  "lastUpdate" : 1660722054491,
+  "template" : "@customButtonGroup.tpl.html",
+  "controller" : "@customButtonGroup.ctrl.js",
+  "custom" : true,
+  "assets" : [ ],
+  "requiredModules" : [ ],
+  "type" : "widget",
+  "hasHelp" : false
+}

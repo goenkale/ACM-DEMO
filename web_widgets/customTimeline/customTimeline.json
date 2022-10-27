@@ -1,0 +1,22 @@
+{
+  "modelVersion" : "2.2",
+  "previousArtifactVersion" : "2.0",
+  "properties" : [
+    {
+      "label" : "Events",
+      "name" : "events",
+      "type" : "collection",
+      "bond" : "expression"
+    }
+  ],
+  "id" : "customTimeline",
+  "name" : "Timeline",
+  "lastUpdate" : 1660722054469,
+  "template" : "@customTimeline.tpl.html",
+  "controller" : "@customTimeline.ctrl.js",
+  "custom" : true,
+  "assets" : [ ],
+  "requiredModules" : [ ],
+  "type" : "widget",
+  "hasHelp" : false
+}
