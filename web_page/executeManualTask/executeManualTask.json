@@ -3,7 +3,7 @@
   "previousArtifactVersion" : "2.0",
   "id" : "executeManualTask",
   "name" : "executeManualTask",
-  "lastUpdate" : 1660730256970,
+  "lastUpdate" : 1666864747163,
   "rows" : [
     [
       {
@@ -221,7 +221,7 @@
           },
           "targetUrlOnSuccess" : {
             "type" : "interpolation",
-            "value" : "../case?id={{caseId}}"
+            "value" : "../case/?id={{task.caseId}}"
           },
           "collectionToModify" : {
             "type" : "variable"
